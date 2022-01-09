@@ -375,8 +375,10 @@
 }
 
 .triangle_Cv:hover {
-    animation: hover_Cv 2s;
+
+  animation: hover_Cv 2s;
 }
+
 
 @keyframes hover_Cv{
 

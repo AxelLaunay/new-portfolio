@@ -4,7 +4,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    background-color: #0c0f15;
+    background: rgb(6,0,17);
+    background: linear-gradient(45deg, rgba(6,0,17,1) 0%, rgba(20,0,56,1) 50%, rgba(6,0,17,1) 100%);
     color: #ababab;
 }
 
@@ -25,6 +26,7 @@ body {
 
 .heading-page {
     text-transform: uppercase;
+    text-align: center;
     font-size: 43px;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -322,7 +324,7 @@ label {
 }
 
 .site-wrapper {
-    border-top: 4px solid #ff0037;
+    border-top: 4px solid #6000dd;
 }
 
 .page-close {
@@ -441,16 +443,12 @@ label {
     vertical-align: middle;
 }
 
-.page-home .overlay {
-    background-color: rgba(14, 17, 24, 0.97);
-}
-
-
 /* End of container */
 
 .hexagon-item {
     cursor: pointer;
     width: 200px;
+    margin-right: 20px;
     height: 173.20508px;
     float: left;
     margin-left: -29px;
@@ -464,9 +462,18 @@ label {
 }
 
 .hexagon-item:first-child {
-    margin-left: 0;
+    margin-left: 2%;
 }
 
+.infoAdd{
+    margin-top: 30px;
+}
+.skills{
+    margin-top: 30px;
+}
+.contact{
+    margin-top: 30px;
+}
 .hexagon-item:hover {
     z-index: 1;
 }
@@ -558,7 +565,7 @@ label {
 
 .hex-item div::before,
 .hex-item div::after {
-    background-color: #1e2530;
+    background-color: #6000dd;
     content: "";
     position: absolute;
     width: 100%;
