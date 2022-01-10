@@ -4,7 +4,7 @@ body {
     background: linear-gradient(45deg, rgba(6,0,17,1) 0%, rgba(20,0,56,1) 50%, rgba(6,0,17,1) 100%);
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Lato', sans-serif;
-    margin: 20px;
+    margin: 0px;
 }
 
 * {
@@ -17,10 +17,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 4px solid #6000dd;
 }
 
 
 h1 {
+    margin-top: 10px;
     font-size: 4em;
     letter-spacing: 5px;
     color: white;
@@ -28,7 +30,7 @@ h1 {
 
 .spaceBare {
     border-bottom: solid;
-    color: rgb(253, 253, 253);
+    color: #6000dd;
     padding: 2% 1% 0% 70%;
     margin-bottom: 3%;
 }
@@ -113,6 +115,7 @@ h1 {
     display: inline-block;
     cursor: pointer;
     pointer-events: all;
+    padding-top: 15px;
 }
 
 .spacer {

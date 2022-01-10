@@ -96,6 +96,7 @@ button:hover {
     display: inline-block;
     cursor: pointer;
     pointer-events: all;
+    padding-top: 15px;
 }
 
 .spacer {
@@ -263,6 +264,7 @@ span {
     }
     .block{
         width: 90%;
+        padding: 10px;
     }
     #presentation_P {
         width: 100%;
@@ -307,6 +309,7 @@ span {
     }
     .block{
         width: 90%;
+        padding: 10px;
     }
     #presentation_P {
         width: 100%;

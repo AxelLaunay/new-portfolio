@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-    background-color: #0c0f15;
+    background: linear-gradient(45deg, rgba(6,0,17,1) 0%, rgba(20,0,56,1) 50%, rgba(6,0,17,1) 100%);
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Lato', sans-serif;
-    margin: 20px;
+    margin: 0px;
+    height: 1500px;
 }
 
 * {
@@ -18,6 +19,7 @@ main {
     flex-direction: column;
     align-items: center;
     white-space: pre;
+    border-top: 4px solid #6000dd;
 }
 
 h1 {
@@ -33,6 +35,7 @@ h1 {
 .spaceBar_vertical {
     border: solid;
     padding: 0% 0 0 0;
+    color: #6000dd ;
 }
 
 .title_forme {
@@ -124,6 +127,7 @@ button:hover {
     display: inline-block;
     cursor: pointer;
     pointer-events: all;
+    padding-top: 15px;
 }
 
 .spacer {
