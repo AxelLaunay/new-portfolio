@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-    background-color: #0c0f15;
+    background: rgb(6,0,17);
+    background: linear-gradient(45deg, rgba(6,0,17,1) 0%, rgba(20,0,56,1) 50%, rgba(6,0,17,1) 100%);
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Lato', sans-serif;
     margin: 20px;
@@ -17,6 +18,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 
 h1 {
     font-size: 4em;

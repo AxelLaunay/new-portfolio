@@ -1,31 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-    background-color: #0f131b;
+    margin-bottom: 0px;
+    background: rgb(6,0,17);
+    background: linear-gradient(45deg, rgba(6,0,17,1) 0%, rgba(20,0,56,1) 50%, rgba(6,0,17,1) 100%);
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Lato', sans-serif;
-    margin: 20px;
+    width: 100%;
+    height: 1500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-* {
+*{
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    padding: 0pt;
 }
 
 main {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     white-space: pre;
+    border-top: 4px solid #6000dd;
 }
 
 #picture_Profil {
     width: 15%;
     border: solid 4px;
     border-radius: 150px;
-    border-color: #ababab;
+    border-color: #6000dd;
     margin-bottom: 1%;
+    margin-top: 20px;
 }
 
 h1 {
@@ -34,6 +41,13 @@ h1 {
     margin-bottom: 3%;
     color: white;
     letter-spacing: 3px;
+}
+
+.block{
+    border: solid 3px #6000dd ;
+    background: rgb(18 20 42);
+    border-radius: 30px;
+    margin-bottom: 37px;
 }
 
 #presentation_P {
@@ -226,10 +240,18 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 100%;
+        overflow-x:auto;
+        overflow-y: auto;
     }
+
+
     main {
-        width: 100%;
+        width: 80%;
         white-space: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     #picture_Profil {
         width: 75%;
@@ -237,9 +259,14 @@ span {
     }
     h1 {
         margin-bottom: 20%;
+        font-size: 2.5em;
+    }
+    .block{
+        width: 90%;
     }
     #presentation_P {
         width: 100%;
+        font-size: 1em;
     }
     .menu {
         display: none;
@@ -248,7 +275,7 @@ span {
         display: none;
     }
     .retour {
-        margin-top: 4%;
+        margin-top: 2%;
         display: block;
         text-align: center;
         color: white;
@@ -262,6 +289,9 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 100%;
+        overflow-x:auto;
+        overflow-y: auto;
     }
     main {
         width: 100%;
@@ -273,9 +303,14 @@ span {
     }
     h1 {
         margin-bottom: 10%;
+        
+    }
+    .block{
+        width: 90%;
     }
     #presentation_P {
         width: 100%;
+        font-size: 1.5em;
     }
     .menu {
         display: none;
